@@ -12,8 +12,8 @@ $headers[] = 'Connection: Keep-Alive';
 $headers[] = 'User-Agent: okhttp/3.8.0';
  
 // INFO
-$reff = "LT0Q1V";
-$pass = "Kontol123";
+$reff = "UKBAZ8";
+$pass = "Cobaingan123";
 $nam = nama();
 $nama = explode(" ", $nam);
  
