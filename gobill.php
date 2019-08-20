@@ -51,7 +51,7 @@ $tools = trim(fgets(STDIN));
 				// Claim Voucher
 				$token = $verifs->data->access_token;
 				$headers[] = 'Authorization: Bearer '.$token;
-				$data3 = '{"promo_code":"Ayomerdeka"}';
+				$data3 = '{"promo_code":"GOFOODNASGOR07"}';
 				$claim = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data3, $headers);
 				$claims = json_decode($claim[0]);
 				if ($claims->success == true) {
